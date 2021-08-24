@@ -1,0 +1,334 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+nav{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    z-index: 5;
+}
+.nav_brand{
+    font-size: 3rem;
+    background: linear-gradient(to right, #e69334,
+    #fbff00, #da6334, #657e0d);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+    
+    padding-left: 20px;
+    
+}
+.nav_items{
+    padding-top: 25px;
+    margin-left: 250px;
+}
+.nav_item{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+
+    padding-left: 30px ;
+}
+
+.nav_item:hover{
+    color: rgb(231, 174, 120);
+}
+.bg_img{
+    /* position: absolute; */
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+   
+}
+
+.bg_img_continer{
+   height: 110vh;
+
+}
+.hero_overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 83vh;
+    background: rgba(0, 0, 0, 0.4); 
+    background-image:linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+}
+.hero_card{
+    position: absolute;
+  top: 40%; 
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero_title{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    
+}
+
+.hero_button{
+    background-color: transparent;
+    text-decoration: none;  
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.788);
+    
+    border: 3px solid  rgba(235, 228, 228, 0.788);
+    
+    padding: 0.8rem 0.9rem;
+    
+}
+.hero_button:hover{
+    background-color: rgb(231, 174, 120); 
+}
+.font_small{
+    font-size: 2rem ;}
+.leading{
+    
+    margin-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(209, 191, 191);
+    color:black;
+    height: 100%;
+    width: 100%;
+}
+.title_leading{
+    font-size: 2rem;
+    padding-top: 30px;
+    text-align: center;
+    background: linear-gradient(to right, #470101,
+    #910909, #ee1010, #4b0303);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    align-content: center;
+}
+.leading_main{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 20rem;
+}
+.main_video{
+    margin-left: 3em;
+    padding: 10px;
+    border: 2px solid rgba(250, 128, 114, 0.925);   
+}
+.main_video:hover{
+    border: 4px solid rgba(245, 32, 8, 0.836); 
+}
+.display_image{
+    margin-left: auto ;
+    margin-right: auto;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    align-content: center;
+    margin-bottom: 30px
+}
+.content_title{
+    text-align: center;
+    background: linear-gradient(to right, #04144b,
+                    #359bb4, #0ad0eb, #000000);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.content_trailing{
+    text-align: center;
+    padding: 30px;
+    
+}
+.content_btn{
+    background-color: rgba(238, 161, 90, 0.904);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 2px solid rgba(226, 158, 146, 0.952);
+   
+}
+.content_btn:hover{
+    border: 8px solid salmon;
+    background-color:  rgb(207, 118, 118);
+}
+.para_content{
+    margin-bottom: 30px;
+}
+.leading_trailing{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 250px;
+}
+#middle_trailing{
+    border-left: 2px solid rgba(165, 42, 42, 0.39);
+    border-right:2px solid rgba(165, 42, 42, 0.39);
+}
+.image_class{
+    text-align: center;
+}
+
+.leading_sepration{
+    
+    border-width:0;
+    color:rgba(226, 152, 152, 0.63);
+    background-color:rgba(219, 144, 144, 0.733);
+  text-align: center;
+  height: 3px;
+  width: 50%;
+}
+
+.newsletter{
+    position: absolute;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+}
+.newsletter_head{
+    position: absolute;
+    font-size: 2rem;
+    top:20%;
+    left: 33%;
+    }
+
+.newsletterbgimg{
+    object-fit: cover;
+    width: 102%;
+    height:60vh;
+    opacity: 0.5;
+}
+
+.email_input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    padding-left: 7px;
+    font-family: inherit;
+  }
+
+.email_label {
+    color: black;
+    position: absolute;
+    top: 28%;
+    left: 2%;
+    color: rgb(153, 149, 149);
+    transition: 0.5s;
+  }
+  
+  .email_form_container {
+    display: flex;
+    position: absolute;
+    top:50%;
+    left: 20%;
+    width: 60%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .form_container {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    font-family: inherit;
+  }
+  
+  .email_input:focus + .email_label {
+    top: 0.2rem;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    font-family: inherit;
+  }
+  
+ .email_input:not(:placeholder-shown).email_input:not(:focus) + .email_label {
+    top: 0.2rem;
+    font-size: 10px;
+    font-weight: bold;
+    
+  }
+  
+  .email_input:focus-visible {
+    outline: none;
+  }
+  .primary_button {
+    background-color: rgba(238, 161, 90, 0.904);
+    border: 2px solid rgba(226, 158, 146, 0.952);
+    padding: 0.8rem 1.6rem;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-family: inherit;
+  }
+  .primary_button:hover{
+    padding: 0.6rem 1rem;
+    border: 8px solid salmon;
+    background-color:  rgb(207, 118, 118);
+  }
+  .contact_container{
+      position: absolute;
+      display: flex;
+      width: 99%;
+      flex-direction: row;
+      top:255%;
+      padding-bottom: 5px;
+      background-color: burlywood;
+  }
+  .contact_form{
+      margin: 40px
+  }
+  
+.form-control{
+    outline: none;
+    border: 3px solid rgb(165, 104, 104);
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    background-color: rgba(209, 191, 191, 0);
+    font-family: inherit;
+}
+.form_container:focus-visible{
+    border: 4px solid rgb(204, 14, 14);
+}
+.alert{
+    visibility: hidden;
+}
+.submit_button{
+    font-family: inherit;
+    padding: 0.8rem 1.2rem;
+    background-color: rgba(224, 109, 1, 0.904);
+    border: 2px solid rgba(253, 38, 0, 0);
+}
+.submit_button:hover{
+    background-color: rgba(192, 100, 93, 0.904);
+    border: 4px solid rgb(253, 38, 0);
+}
+.fotter{
+    position: absolute;
+    display: flex;
+    padding-left: 15%;
+    width: 80%;
+    flex-direction: row;
+    top:330%;
+}
+.fotter_sub{
+    margin:20px ;
+    padding-left:7%;
+}
+.fotter_text{
+    font-size: 0.8rem;
+    gap:5px;
+    padding:5px
+}
